@@ -162,9 +162,10 @@
           "footer-3"
         ],
         "custom_css": [
-          "#footer .col li {display:flex; justify-content:center;}",
+          "#footer .col li {display: flex; justify-content: center;}",
           "#footer .col li a {color: red; font-weight: bold; transition: all 0.3s linear;}",
-          "#footer .col li a:hover {transform:scale(1.1);}"
+          "#footer .col li a:hover {transform: scale(1.1);}",
+          "a#scroll-to-top.visible {border-radius: 50%;}"
         ],
         "settings": {
           "hide_scroll_to_top": false
