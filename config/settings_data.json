@@ -51,7 +51,7 @@
         "custom_css": [
           "#header nav ul li a {color: red; transition: all 0.3s linear;}",
           "#header nav ul li a:hover {transform: scale(1.2);}",
-          "#header nav ul li a:active {color: blue; text-decoration: underline;}"
+          "#header nav ul li.active a{color: blue;}"
         ],
         "settings": {
           "top_message": "",
