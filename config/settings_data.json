@@ -51,7 +51,7 @@
         "custom_css": [
           "#header nav ul li a {color: red; transition: all 0.3s linear;}",
           "#header nav ul li a:hover {transform: scale(1.2);}",
-          "#header nav ul li a:active {color: blue; text-decoration:underline;}"
+          "#header nav ul li a:active {color: blue; text-decoration: underline;}"
         ],
         "settings": {
           "top_message": "",
@@ -162,8 +162,9 @@
           "footer-3"
         ],
         "custom_css": [
+          "#footer .col li {display:flex; justify-content:center;}",
           "#footer .col li a {color: red; font-weight: bold; transition: all 0.3s linear;}",
-          "#footer .col li a:hover {transform: scale(1.2);}"
+          "#footer .col li a:hover {transform:scale(1.1);}"
         ],
         "settings": {
           "hide_scroll_to_top": false
