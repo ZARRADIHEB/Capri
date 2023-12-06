@@ -51,7 +51,7 @@
         "custom_css": [
           "#header nav ul li a {color: red; transition: all 0.3s linear;}",
           "#header nav ul li a:hover {transform: scale(1.2);}",
-          "#header nav ul li.active a{color: blue;}"
+          "#header nav ul li.active a {color: blue;}"
         ],
         "settings": {
           "top_message": "",
@@ -353,7 +353,15 @@
       "1529922374140",
       "1529922389276",
       "1531485921633"
-    ]
+    ],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "platform_customizations": {
     "custom_css": [
