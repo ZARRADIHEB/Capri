@@ -247,6 +247,9 @@
           "1529922357412-2",
           "1529922357412-3"
         ],
+        "custom_css": [
+          ".collections-grid .collection-item{background-color: white;}"
+        ],
         "settings": {
           "title": "Popular collections",
           "subtitle": "Best of category shop for you"
