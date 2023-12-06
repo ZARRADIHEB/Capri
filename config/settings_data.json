@@ -346,9 +346,18 @@
           "limit": 8,
           "display_as": "grid"
         }
+      },
+      "15f61bbc-a2fc-4375-8a02-fad2c778867b": {
+        "type": "products-carousel",
+        "settings": {
+          "title": "Bestsellers",
+          "subtitle": "Check what other people likes",
+          "collection": "mans-collection"
+        }
       }
     },
     "content_for_index": [
+      "15f61bbc-a2fc-4375-8a02-fad2c778867b",
       "1529922357412",
       "1529922374140",
       "1529922389276",
