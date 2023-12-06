@@ -48,6 +48,10 @@
     "sections": {
       "header": {
         "type": "header",
+        "custom_css": [
+          "#header nav ul li a {color:red; transition:all .3s linear;}",
+          "#header nav ul li a:hover {transform:scale(1.2);}"
+        ],
         "settings": {
           "top_message": "",
           "logo": "shopify:\/\/shop_images\/lll.jpg",
