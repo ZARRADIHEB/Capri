@@ -249,7 +249,7 @@
         ],
         "custom_css": [
           ".collections-grid .collection-item {background-color: white;}",
-          ".collections-grid .collection-item a.image img{transition: all 0.3s linear;}",
+          ".collections-grid .collection-item a.image img {transition: all 0.3s linear;}",
           ".collections-grid .collection-item a.image img:hover {transform: scale(1.2);}"
         ],
         "settings": {
