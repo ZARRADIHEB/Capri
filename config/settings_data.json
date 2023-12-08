@@ -53,8 +53,8 @@
           "#header nav ul li a:hover {transform: scale(1.1);}",
           "#header nav ul li.active a {color: red;}",
           "#header .container {gap: 23%;}",
-          "body.loaded #header nav ul ul {padding: 0; width: 180px; border-radius: 25px;}",
-          "#header nav ul li a {text-align: center;}"
+          "body.loaded #header nav ul ul {padding: 0; background-color: darckgray; width: 170px; border-radius: 25px;}",
+          "#header nav ul li a {text-align: center; width: fit-content;}"
         ],
         "settings": {
           "top_message": "",
