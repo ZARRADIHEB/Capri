@@ -49,9 +49,9 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "#header nav ul li a {color: red; transition: all 0.3s linear;}",
+          "#header nav ul li a {transition: all 0.3s linear;}",
           "#header nav ul li a:hover {transform: scale(1.2);}",
-          "#header nav ul li.active a {color: blue;}"
+          "#header nav ul li.active a {color: red;}"
         ],
         "settings": {
           "top_message": "",
@@ -82,7 +82,6 @@
           "4ea95c41-ef47-4f74-b4b6-9a3f603e6c3c": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2121_ezgif-com-webp-to-jpg--5.jpg",
               "text_position": "center",
               "headline": "welcome to momokickz",
               "text": "<p>the style that you fit<\/p>",
