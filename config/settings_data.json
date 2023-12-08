@@ -52,7 +52,7 @@
           "#header nav ul li a {transition: all 0.3s linear;}",
           "#header nav ul li a:hover {transform: scale(1.2);}",
           "#header nav ul li.active a {color: red;}",
-          "#header .container {gap: 25%;}"
+          "#header .container {gap: 23%;}"
         ],
         "settings": {
           "top_message": "",
