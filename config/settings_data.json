@@ -177,6 +177,7 @@
         "blocks": {
           "filters-sidebar-0": {
             "type": "widget",
+            "disabled": true,
             "settings": {
               "title": "Price",
               "type": "list",
@@ -185,6 +186,7 @@
           },
           "filters-sidebar-1": {
             "type": "widget",
+            "disabled": true,
             "settings": {
               "title": "Sizes",
               "type": "tags",
@@ -193,6 +195,7 @@
           },
           "filters-sidebar-2": {
             "type": "widget",
+            "disabled": true,
             "settings": {
               "title": "Colors",
               "type": "colors",
@@ -201,6 +204,7 @@
           },
           "filters-sidebar-3": {
             "type": "widget",
+            "disabled": true,
             "settings": {
               "title": "Price",
               "type": "list",
@@ -354,6 +358,13 @@
           "title": "Bestsellers",
           "subtitle": "Check what other people likes",
           "collection": "mans-collection"
+        }
+      },
+      "product": {
+        "type": "product",
+        "settings": {
+          "show_share_buttons": true,
+          "labels_of_variants_above": false
         }
       }
     },
