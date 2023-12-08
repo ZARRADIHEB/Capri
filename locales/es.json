@@ -1,0 +1,163 @@
+{
+  "customer_accounts": {
+    "order_details": {
+      "fees": {
+        "restocking_fee": "Tasa de reposición",
+        "return_shipping_fee": "Envío de devolución"
+      }
+    }
+  },
+  "general": {
+    "404": {
+      "subtext_line_1": "¡Ups! Parece que algo va mal.",
+      "subtext_line_2": "Parece que no podemos encontrar la página que estás buscando. Asegúrate de haber escrito la URL correcta.",
+      "go_to_homepage": "Ir a la página de inicio"
+    },
+    "password_page": {
+      "password_link": "Ingresar usando contraseña",
+      "cancel": "Cancelar",
+      "coming_soon": "Muy pronto",
+      "signup_form_heading": "Entérate cuando abrimos",
+      "signup_form_success": "¡Le enviaremos un correo electrónico justo antes de abrir!",
+      "signup_form_email_label": "Correo electrónico",
+      "signup_form_submit": "Notificarme",
+      "login_form_heading": "Ingresar usando contraseña",
+      "admin_link_html": "¿Eres el propietario de la tienda? <a href=\"\/admin\" class=\"nowrap\">Entre aquí<\/a> .",
+      "login_form_password_label": "Contraseña",
+      "login_form_submit": "Ingresar"
+    },
+    "social": {
+      "share_on_facebook": "Compartir",
+      "share_on_twitter": "Pío",
+      "share_on_pinterest": "Fijarlo",
+      "share_on_google_plus": "Compartir"
+    },
+    "search": {
+      "no_results_html": "Su búsqueda de \" {{ terms }} \" no arrojó ningún resultado.",
+      "results_for_html": "Su búsqueda de \" {{ terms }} \" reveló lo siguiente:",
+      "title": "Buscar",
+      "subtitle": "Encuentre productos en nuestro sitio",
+      "placeholder": "busca en nuestra tienda",
+      "submit": "Buscar"
+    },
+    "validation_messages": {
+      "required": "Este campo es obligatorio",
+      "email": "Por favor, introduce una dirección de correo electrónico válida",
+      "equal_to": "Por favor, introduzca el mismo valor de nuevo"
+    }
+  },
+  "layout": {
+    "menu": {
+      "account": "Cuenta",
+      "search": "Buscar"
+    },
+    "footer": {
+      "copyright": "Tema Capri",
+      "social_platform": "Visítenos en {{ platform }}"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Lo sentimos, no hay productos en esta colección.",
+      "link_title": "Explore nuestra colección {{ title }}",
+      "with_count": {
+        "one": "{{ count }} producto",
+        "other": "{{ count }} productos"
+      }
+    },
+    "collection": {
+      "empty": "no se encontraron productos en esta colección",
+      "empty_filtering": "No se encontraron productos que coincidan con los filtros seleccionados",
+      "sort_by": "Ordenar por",
+      "view_as": "Visto como",
+      "show": "Espectáculo"
+    },
+    "sorting": {
+      "featured": "Presentado",
+      "best_selling": "Más vendido",
+      "title_ascending": "Alfabéticamente, AZ",
+      "title_descending": "Alfabéticamente, ZA",
+      "price_ascending": "Precios de barato a caro",
+      "price_descending": "Precio, de mayor a menor",
+      "created_ascending": "Fecha, antigua a nueva",
+      "created_descending": "Fecha, nueva a vieja"
+    },
+    "filtering": {
+      "clear_filter": "Limpiar este filtro",
+      "filters": "Filtros"
+    }
+  },
+  "products": {
+    "product": {
+      "from_text_html": "Desde {{ price }}",
+      "add_to_cart": "Añadir a la cesta",
+      "sold_out": "Agotado",
+      "select_variant": "Seleccionar variante",
+      "sale": "VENTA",
+      "new": "NUEVO",
+      "home": "Hogar",
+      "description": "Descripción",
+      "reviews": "Reseñas"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "message": "Mensaje",
+      "send": "Enviar",
+      "post_success": "Gracias por contactarnos. Nos comunicaremos con usted lo antes posible."
+    }
+  },
+  "blogs": {
+    "article": {
+      "read_more": "Leer más"
+    },
+    "comments": {
+      "title": "Deja un comentario",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "post": "Publicar comentario",
+      "moderated": "Tenga en cuenta que los comentarios deben aprobarse antes de publicarse.",
+      "success_moderated": "Tu comentario fue publicado exitosamente. Lo publicaremos en un rato, ya que nuestro blog está moderado.",
+      "success": "¡Tu comentario fue publicado exitosamente! ¡Gracias!",
+      "with_count": {
+        "one": "{{ count }} comentario",
+        "other": "{{ count }} comentarios"
+      }
+    },
+    "general": {
+      "categories": "Categorías"
+    }
+  },
+  "customer": {
+    "login": {
+      "title": "Acceso",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "forgot_your_password": "¿Olvidaste tu contraseña?",
+      "sign_in": "Iniciar sesión",
+      "dont_have_account": "¿No tienes una cuenta?",
+      "register_here": "Registrar aquí",
+      "guest_title": "Continuar como invitado",
+      "guest_continue": "Continuar"
+    },
+    "register": {
+      "title": "Crear una cuenta",
+      "already_have_account": "¿Ya tienes una cuenta?",
+      "sign_in_here": "Firme aquí",
+      "first_name": "Nombre de pila",
+      "last_name": "Apellido",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "submit": "Crear"
+    },
+    "recover_password": {
+      "title": "Restablecer su contraseña",
+      "subtext": "Le enviaremos un correo electrónico para restablecer su contraseña.",
+      "email": "Correo electrónico"
+    }
+  }
+}
