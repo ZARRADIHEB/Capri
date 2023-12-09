@@ -107,12 +107,26 @@
               "cta_url": "shopify:\/\/collections",
               "cta_btn_type": "btn-primary"
             }
+          },
+          "50eac6eb-f2f1-4f1d-b3ec-dbf14a7b63c1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/air-jordan-low-lucky-green-ps-2.png",
+              "text_position": "center",
+              "headline": "welcome to momokickz",
+              "text": "<p>we are the best no comment<\/p>",
+              "text_color": "white",
+              "cta_text": "see products",
+              "cta_url": "shopify:\/\/collections",
+              "cta_btn_type": "btn-primary"
+            }
           }
         },
         "block_order": [
           "1529922279180",
           "4ea95c41-ef47-4f74-b4b6-9a3f603e6c3c",
-          "23e7f0e0-4a88-46a9-8d9b-e0e02aebe26b"
+          "23e7f0e0-4a88-46a9-8d9b-e0e02aebe26b",
+          "50eac6eb-f2f1-4f1d-b3ec-dbf14a7b63c1"
         ],
         "custom_css": [
           "#slideshow .slide a[class*=\"btn\"] {border-radius: 25px;}"
