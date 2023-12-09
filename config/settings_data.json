@@ -94,11 +94,25 @@
               "cta_url": "shopify:\/\/collections",
               "cta_btn_type": "btn-primary"
             }
+          },
+          "23e7f0e0-4a88-46a9-8d9b-e0e02aebe26b": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/air-jordan-1-low-multicolor-2.png",
+              "text_position": "center",
+              "headline": "welcome to momokickz",
+              "text": "<p>just take a look than judge<\/p>",
+              "text_color": "white",
+              "cta_text": "See products",
+              "cta_url": "shopify:\/\/collections",
+              "cta_btn_type": "btn-primary"
+            }
           }
         },
         "block_order": [
           "1529922279180",
-          "4ea95c41-ef47-4f74-b4b6-9a3f603e6c3c"
+          "4ea95c41-ef47-4f74-b4b6-9a3f603e6c3c",
+          "23e7f0e0-4a88-46a9-8d9b-e0e02aebe26b"
         ],
         "settings": {
           "show_slideshow": true,
