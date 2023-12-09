@@ -122,8 +122,8 @@
           "slideshow_animation_type": "fade",
           "slideshow_enable_autoplay": true,
           "slideshow_autoplay_speed": "4000",
-          "slideshow_show_arrows": true,
-          "slideshow_show_dots": false
+          "slideshow_show_arrows": false,
+          "slideshow_show_dots": true
         }
       },
       "footer": {
