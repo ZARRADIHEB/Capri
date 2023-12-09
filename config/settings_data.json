@@ -274,27 +274,20 @@
           "1529922357412-1": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "womens-collection"
             }
           },
           "1529922357412-2": {
             "type": "collection",
             "settings": {
-              "collection": ""
-            }
-          },
-          "1529922357412-3": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
+              "collection": "kids-collection"
             }
           }
         },
         "block_order": [
           "1529922357412-0",
           "1529922357412-1",
-          "1529922357412-2",
-          "1529922357412-3"
+          "1529922357412-2"
         ],
         "custom_css": [
           ".collections-grid .collection-item {background-color: white;}",
@@ -308,8 +301,10 @@
       },
       "1529922374140": {
         "type": "parallax-image",
+        "disabled": true,
         "settings": {
-          "height": 400
+          "image": "shopify:\/\/shop_images\/lll.jpg",
+          "height": 450
         }
       },
       "1529922389276": {
@@ -421,7 +416,8 @@
     "custom_css": [
       "a {color: red; font-weight: bold;}",
       "body.loaded #side-nav a {color: red; transition: all 0.3s linear;}",
-      "body.loaded #side-nav a:hover {transform: scale(1.07);}"
+      "body.loaded #side-nav a:hover {transform: scale(1.07);}",
+      "#footer .bottom {display:none;}"
     ]
   }
 }
