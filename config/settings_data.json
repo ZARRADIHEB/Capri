@@ -201,7 +201,9 @@
           "#footer .col li a:hover {transform: scale(1.1);}",
           "a#scroll-to-top.visible {border-radius: 50%;}",
           "#footer .col h4 {font-weight: bold;}",
-          "#footer .col + .col img {width: 120px;}"
+          "#footer .col + .col img {width: 120px;}",
+          ".footer {background-color: var(--second-color); color: black; padding: 30px 10px; text-align: center; font-size: 20px;}",
+          ".footer span {font-weight: bold; color:red;}"
         ],
         "settings": {
           "hide_scroll_to_top": false
