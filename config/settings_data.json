@@ -184,7 +184,7 @@
               "type": "html",
               "text": "",
               "menu": "",
-              "html": "",
+              "html": "<div class=\"footer\">\n                © 2023 Designed By <span> Zarrad Iheb <\/span> All Right Reserved\n            <\/div>",
               "mailchimp_form_url": ""
             }
           }
