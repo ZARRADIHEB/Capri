@@ -200,7 +200,8 @@
           "#footer .col li {display: flex; justify-content: center;}",
           "#footer .col li a {color: red; font-weight: bold; transition: all 0.3s linear;}",
           "#footer .col li a:hover {transform: scale(1.1);}",
-          "a#scroll-to-top.visible {border-radius: 50%;}"
+          "a#scroll-to-top.visible {border-radius: 50%;}",
+          "#footer .col h4 {font-weight: bold;}"
         ],
         "settings": {
           "hide_scroll_to_top": false
