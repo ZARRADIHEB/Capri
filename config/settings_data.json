@@ -114,6 +114,9 @@
           "4ea95c41-ef47-4f74-b4b6-9a3f603e6c3c",
           "23e7f0e0-4a88-46a9-8d9b-e0e02aebe26b"
         ],
+        "custom_css": [
+          "#slideshow .slide a[class*=\"btn\"] {border-radius: 25px;}"
+        ],
         "settings": {
           "show_slideshow": true,
           "slideshow_animation_type": "fade",
