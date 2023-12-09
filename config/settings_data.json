@@ -184,7 +184,7 @@
               "type": "html",
               "text": "",
               "menu": "",
-              "html": "<a href=\"https:\/\/www.instagram.com\/theoemhouse\/\">\n  <img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/174\/174855.png\" alt=\"\">\n<\/a>",
+              "html": "<a target=\"_blank\" href=\"https:\/\/www.instagram.com\/theoemhouse\/\">\n  <img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/174\/174855.png\" alt=\"\">\n<\/a>",
               "mailchimp_form_url": ""
             }
           }
