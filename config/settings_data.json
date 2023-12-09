@@ -170,22 +170,23 @@
             "settings": {
               "title": "Payment Methods",
               "type": "text_plus_image",
-              "text": "<p>We accept PayPay and Credit Cards payments<\/p>",
+              "text": "<p>paypal<\/p>",
               "menu": "",
+              "image": "shopify:\/\/shop_images\/pp.png",
               "html": "",
               "mailchimp_form_url": ""
             }
           },
-          "footer-3": {
+          "a32b1bb9-7ba6-46cb-bd30-3c0f51b11b9c": {
             "type": "widget",
             "disabled": true,
             "settings": {
-              "title": "Our newsletter",
-              "type": "newsletter",
-              "text": "<p>Subscribe to our newsletter to keep up to date on products and discounts.<\/p>",
+              "title": "",
+              "type": "html",
+              "text": "",
               "menu": "",
               "html": "",
-              "mailchimp_form_url": "https:\/\/kikowsky.us12.list-manage.com\/subscribe\/post?u=11f53a78ee1899244f950099f&amp;id=f8e1720389"
+              "mailchimp_form_url": ""
             }
           }
         },
@@ -193,7 +194,7 @@
           "footer-0",
           "footer-1",
           "footer-2",
-          "footer-3"
+          "a32b1bb9-7ba6-46cb-bd30-3c0f51b11b9c"
         ],
         "custom_css": [
           "#footer .col li {display: flex; justify-content: center;}",
@@ -417,7 +418,7 @@
       "a {color: red; font-weight: bold;}",
       "body.loaded #side-nav a {color: red; transition: all 0.3s linear;}",
       "body.loaded #side-nav a:hover {transform: scale(1.07);}",
-      "#footer .bottom {display:none;}"
+      "#footer .bottom {display: none;}"
     ]
   }
 }
