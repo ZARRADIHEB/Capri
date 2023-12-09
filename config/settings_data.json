@@ -160,7 +160,7 @@
               "title": "Collections",
               "type": "menu",
               "text": "",
-              "menu": "",
+              "menu": "collections",
               "html": "",
               "mailchimp_form_url": ""
             }
@@ -169,7 +169,7 @@
             "type": "widget",
             "settings": {
               "title": "Payment Methods",
-              "type": "text_plus_image",
+              "type": "image",
               "text": "<p>paypal<\/p>",
               "menu": "",
               "image": "shopify:\/\/shop_images\/pp.png",
@@ -179,7 +179,6 @@
           },
           "a32b1bb9-7ba6-46cb-bd30-3c0f51b11b9c": {
             "type": "widget",
-            "disabled": true,
             "settings": {
               "title": "",
               "type": "html",
@@ -201,7 +200,8 @@
           "#footer .col li a {color: red; font-weight: bold; transition: all 0.3s linear;}",
           "#footer .col li a:hover {transform: scale(1.1);}",
           "a#scroll-to-top.visible {border-radius: 50%;}",
-          "#footer .col h4 {font-weight: bold;}"
+          "#footer .col h4 {font-weight: bold;}",
+          "#footer .col + .col img {width: 120px;}"
         ],
         "settings": {
           "hide_scroll_to_top": false
