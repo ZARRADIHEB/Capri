@@ -85,13 +85,13 @@
           "4ea95c41-ef47-4f74-b4b6-9a3f603e6c3c": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ff.png",
+              "image": "shopify:\/\/shop_images\/AirJordan4RetroThunder_2023__1.png",
               "text_position": "center",
               "headline": "welcome to momokickz",
               "text": "<p>the style that you fit<\/p>",
               "text_color": "white",
               "cta_text": "See product",
-              "cta_url": "shopify:\/\/products\/jordan-4",
+              "cta_url": "shopify:\/\/collections",
               "cta_btn_type": "btn-primary"
             }
           }
