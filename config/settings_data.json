@@ -204,7 +204,8 @@
           "#footer .col + .col img {width: 120px;}",
           "#footer .col:last-child a {width: fit-content; display: block;}",
           "#footer .col:last-child img {width: 25px; transition: all 0.3s linear;}",
-          "#footer .col:last-child img:hover {transform: scale(1.2);}"
+          "#footer .col:last-child img:hover {transform: scale(1.2);}",
+          ".bg-gray {background-color: black;}"
         ],
         "settings": {
           "hide_scroll_to_top": false
