@@ -425,11 +425,12 @@
       "body.loaded #side-nav a:hover {transform: scale(1.07);}",
       "#footer .bottom {display: none;}",
       "#footer .custom-html {display: flex; gap: 15px; flex-wrap: wrap;}",
-      "#footer .col:nth-child(3) .custom-html img {width: 30px; margin-top: -45px;}",
+      "#footer .col:nth-child(3) .custom-html img {margin-top: -45px;}",
       ".footers {background-color: black; color: white; text-align: center; padding-bottom: 10px;}",
       ".footers span,.footers a {color: red; text-decoration: none;}",
       "#home .slick-slide .slide {background-repeat: no-repeat; background-size: contain;}",
-      ".Online-Store-UI-MainArea_1fawx {padding: 0;}"
+      ".Online-Store-UI-MainArea_1fawx {padding: 0;}",
+      ".collections-grid {justify-content: center;}"
     ]
   }
 }
