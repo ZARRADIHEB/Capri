@@ -425,7 +425,7 @@
       "body.loaded #side-nav a:hover {transform: scale(1.07);}",
       "#footer .bottom {display: none;}",
       ".footers {background-color: black; color: white; text-align: center;}",
-      ".footers span {color: red;}"
+      ".footers span {color: red; text-decoration: none;}"
     ]
   }
 }
