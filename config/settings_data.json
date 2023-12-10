@@ -184,7 +184,7 @@
               "type": "html",
               "text": "",
               "menu": "",
-              "html": "<a target=\"_blank\" href=\"https:\/\/www.instagram.com\/theoemhouse\/\">\n  <img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/174\/174855.png\" alt=\"\">\n<\/a>",
+              "html": "<a target=\"_blank\" href=\"https:\/\/www.instagram.com\/theoemhouse\/\">\n  <img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/174\/174855.png\" alt=\"\">\n<\/a>\n\n<a target=\"_blank\" href=\"https:\/\/www.tiktok.com\/@theoemhouse?lang=en\">\n  <img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/3046\/3046121.png\" alt=\"\">\n<\/a>",
               "mailchimp_form_url": ""
             }
           }
@@ -424,6 +424,7 @@
       "body.loaded #side-nav a {color: red; transition: all 0.3s linear;}",
       "body.loaded #side-nav a:hover {transform: scale(1.07);}",
       "#footer .bottom {display: none;}",
+      "#footer .custom-html {display: flex; gap: 10px;}",
       ".footers {background-color: black; color: white; text-align: center; padding-bottom: 10px;}",
       ".footers span,.footers a {color: red; text-decoration: none;}",
       "#home .slick-slide .slide {background-repeat: no-repeat; background-size: contain;}",
