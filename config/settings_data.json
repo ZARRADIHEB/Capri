@@ -173,7 +173,7 @@
               "type": "html",
               "text": "<p>paypal<\/p>",
               "menu": "",
-              "html": "<img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/196\/196566.png\" alt=\"\">",
+              "html": "<img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/196\/196566.png\" alt=\"\">\n\n<img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/196\/196578.png\" alt=\"\">\n\n<img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/11895\/11895141.png\" alt=\"\">",
               "mailchimp_form_url": ""
             }
           },
@@ -424,8 +424,8 @@
       "body.loaded #side-nav a {color: red; transition: all 0.3s linear;}",
       "body.loaded #side-nav a:hover {transform: scale(1.07);}",
       "#footer .bottom {display: none;}",
-      "#footer .custom-html {display: flex; gap: 15px;}",
-      "#footer .col:nth-child(3) .custom-html {margin-top: -45px;}",
+      "#footer .custom-html {display: flex; gap: 15px; flex-wrap: wrap;}",
+      "#footer .col:nth-child(3) .custom-html img {width: 30px; margin-top: -45px;}",
       ".footers {background-color: black; color: white; text-align: center; padding-bottom: 10px;}",
       ".footers span,.footers a {color: red; text-decoration: none;}",
       "#home .slick-slide .slide {background-repeat: no-repeat; background-size: contain;}",
