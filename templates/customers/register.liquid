@@ -13,6 +13,7 @@
 			<div class="field">
 				<label for="FirstName">{{ 'customer.register.first_name' | t }}</label>
   				<input type="text"
+                        placeholder="Jhon"
    						name="customer[first_name]"
     					id="FirstName"
     					autofocus
@@ -21,6 +22,7 @@
 			<div class="field">
 				<label for="LastName">{{ 'customer.register.last_name' | t }}</label>
   				<input type="text"
+                placeholder="Doe"
     			name="customer[last_name]"
     			id="LastName"
     			{% if form.last_name %}value="{{ form.last_name }}"{% endif %} />
@@ -28,6 +30,7 @@
 			<div class="field">
 				<label for="Email">{{ 'customer.register.email' | t }} <span class="asterix">*</span></label>
   				<input type="email"
+                        placeholder="Please enter your email"
     				name="customer[email]"
     				id="Email"
     				value="{% if form.email %}{{ form.email }}{% endif %}"
@@ -39,6 +42,7 @@
 			<div class="field">
 				<label for="CreatePassword">{{ 'customer.register.password' | t }} <span class="asterix">*</span></label>
 				<input type="password"
+                        placeholder="Please enter your password"
     					name="customer[password]"
     					id="CreatePassword"
     					autocomplete="new-password"
