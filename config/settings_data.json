@@ -437,7 +437,8 @@
       "#home .slick-slide .slide {background-repeat: no-repeat; background-size: contain;}",
       ".Online-Store-UI-MainArea_1fawx {padding: 0;}",
       ".collections-grid {justify-content: center;}",
-      "#header .additional-nav > ul > li:last-child {display:none;}"
+      "#header .additional-nav > ul > li:last-child {display: none;}",
+      "main section#hero {background-color: black; background-image: none !important;}"
     ]
   }
 }
