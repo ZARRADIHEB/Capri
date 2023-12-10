@@ -436,7 +436,8 @@
       ".footers span,.footers a {color: red; text-decoration: none;}",
       "#home .slick-slide .slide {background-repeat: no-repeat; background-size: contain;}",
       ".Online-Store-UI-MainArea_1fawx {padding: 0;}",
-      ".collections-grid {justify-content: center;}"
+      ".collections-grid {justify-content: center;}",
+      "#header .additional-nav > ul > li:last-child {display:none;}"
     ]
   }
 }
