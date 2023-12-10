@@ -436,19 +436,19 @@
           "enable_country_region_switcher": false,
           "use_modal_dialog": false,
           "use_currency_for_region": false,
-          "switcher_position": "custom",
+          "switcher_position": "header",
           "show_flags": true,
           "language_label": "language-name",
           "language_country_mapping": "",
           "countries_filter": "",
           "custom_css": "",
           "header_switcher_reference_element": "",
-          "header_switcher_relative_position": "before",
+          "header_switcher_relative_position": "after",
           "mobile_menu_switcher_reference_element": "",
           "mobile_switcher_relative_position": "before",
           "header_switcher_border_width": 0,
           "switcher_viewport_position": "top-right",
-          "custom_position_spacing_top": "65",
+          "custom_position_spacing_top": "20",
           "custom_position_spacing_right": "5",
           "custom_position_spacing_bottom": "20",
           "custom_position_spacing_left": "20",
@@ -465,7 +465,7 @@
     "custom_css": [
       "a {color: red; font-weight: bold;}",
       "body.loaded #side-nav a {color: red; transition: all 0.3s linear;}",
-      "body.loaded #side-nav a:hover {transform: scale(1.07);}",
+      "body.loaded #side-nav a:hover {transform: scale(1.05);}",
       "#footer .bottom {display: none;}",
       "#footer .custom-html {display: flex; gap: 15px; flex-wrap: wrap;}",
       "#footer .col:nth-child(3) .custom-html img {margin-top: -45px;}",
@@ -475,7 +475,8 @@
       ".Online-Store-UI-MainArea_1fawx {padding: 0;}",
       ".collections-grid {justify-content: center;}",
       "#header .additional-nav > ul > li:last-child {display: none;}",
-      "main section#hero {background-color: black; background-image: none !important;}"
+      "main section#hero {background-color: black; background-image: none !important;}",
+      ".selectric .label {display: none;}"
     ]
   }
 }
