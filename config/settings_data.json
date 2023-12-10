@@ -425,7 +425,8 @@
       "body.loaded #side-nav a:hover {transform: scale(1.07);}",
       "#footer .bottom {display: none;}",
       ".footers {background-color: black; color: white; text-align: center;}",
-      ".footers span,.footers a{color: red; text-decoration: none;}"
+      ".footers span,.footers a {color: red; text-decoration: none;}",
+      " #home .slick-slide .slide {background-repeat: no-repeat; background-size: contain; }"
     ]
   }
 }
