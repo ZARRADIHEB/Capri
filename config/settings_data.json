@@ -476,7 +476,14 @@
       ".collections-grid {justify-content: center;}",
       "#header .additional-nav > ul > li:last-child {display: none;}",
       "main section#hero {background-color: black; background-image: none !important;}",
-      ".selectric .label {display: none;}"
+      ".selectric .label {display: none;}",
+      "input#CustomerEmail {border: none; border-bottom: 1px #d4d4d4 solid;}",
+      "input#CustomerEmail:focus {outline: none; border: 1px black solid; color: black; font-weight: bold;}",
+      "input#CustomerEmail:valid {border: 2px green solid;}",
+      "input#CustomerPassword {border: none; border-bottom: 1px #d4d4d4 solid;}",
+      "input#CustomerPassword:focus {outline: none; border: 1px black solid; color: black; font-weight: bold;}",
+      "#customer_login > div:nth-child(7) > button {transition: all .3s linear;}",
+      "#customer_login > div:nth-child(7) > button:hover {background-color: black; border-radius: 20px;}"
     ]
   }
 }
