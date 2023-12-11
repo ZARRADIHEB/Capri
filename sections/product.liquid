@@ -161,15 +161,16 @@
       					<label for="SingleOptionSelector">{{ 'products.product.select_variant' | t }}:</label>
       					<select name="id" id="SingleOptionSelector" class="raw" data-product-select>
 	        				{% for variant in product.variants %}
-				          		<select name="id" id="SingleOptionSelector" class="raw">
-                                  {% for variant in product.variants %}
-                                    {% if variant.available %}
-                                      <option value="{{ variant.id }}">{{ variant.title }}</option>
-                                    {% else %}
-                                      <option disabled="disabled">{{ variant.title }}</option>
-                                    {% endif %}
-                                  {% endfor %}
-                                </select>
+				          		<option
+				            		{% if variant == current_variant %}selected="selected"{% endif %}
+				            		{% unless variant.available %}disabled="disabled"{% endunless %}
+				            		value="{{ variant.id }}">
+				            		{% if settings.currency_format == 'money_format' %}
+				              			{{ variant.title }} - {{ variant.price | money }}
+				              		{% else %}
+										{{ variant.title }} - {{ variant.price | money_with_currency }}
+				              		{% endif %}
+				          		</option>
 	        				{% endfor %}
 	      				</select>
       				</div>
