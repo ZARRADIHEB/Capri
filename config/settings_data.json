@@ -464,8 +464,8 @@
   "platform_customizations": {
     "custom_css": [
       "a {color: red; font-weight: bold;}",
-      "body.loaded #side-nav a {color: red; transition: all 0.3s linear;}",
-      "body.loaded #side-nav a:hover {transform: scale(1.05);}",
+      "body.loaded #side-nav a {color: black; transition: all 0.3s linear;}",
+      "body.loaded #side-nav a:hover {color: red; transform: scale(1.05);}",
       "#footer .bottom {display: none;}",
       "#footer .custom-html {display: flex; gap: 15px; flex-wrap: wrap;}",
       "#footer .col:nth-child(3) .custom-html img {margin-top: -45px;}",
@@ -474,6 +474,7 @@
       "#home .slick-slide .slide {background-repeat: no-repeat; background-size: contain;}",
       ".Online-Store-UI-MainArea_1fawx {padding: 0;}",
       ".collections-grid {justify-content: center;}",
+      "#header {background-color: transparent; box-shadow: none;}",
       "#header .additional-nav > ul > li:last-child {display: none;}",
       "main section#hero {background-color: black; background-image: none !important;}",
       ".selectric .label {display: none;}",
