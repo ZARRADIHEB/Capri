@@ -482,8 +482,9 @@
       "input#CustomerEmail:valid {border: 2px green solid;}",
       "input#CustomerPassword {border: none; border-bottom: 1px #d4d4d4 solid;}",
       "input#CustomerPassword:focus {outline: none; border: 1px black solid; color: black; font-weight: bold;}",
-      "#customer_login > div:nth-child(7) > button {transition: all .3s linear;}",
-      "#customer_login > div:nth-child(7) > button:hover {background-color: black; border-radius: 20px;}"
+      "#customer_login > div:nth-child(7) > button {transition: all 0.3s linear;}",
+      "#customer_login > div:nth-child(7) > button:hover {background-color: black; border-radius: 20px;}",
+      ".logo img {transform: scale(1.2);}"
     ]
   }
 }
