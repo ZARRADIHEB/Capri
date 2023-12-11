@@ -59,7 +59,7 @@
         ],
         "settings": {
           "top_message": "",
-          "logo": "shopify:\/\/shop_images\/lll.jpg",
+          "logo": "shopify:\/\/shop_images\/logopng.png",
           "show_search_button": true,
           "search_button_type": "popup",
           "enable_underline": false,
