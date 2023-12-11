@@ -224,9 +224,7 @@
 				{% if settings.show_product_reviews %}
 					<div id="reviews" class="tab-content">
 						<div id="shopify-product-reviews" data-id="{{product.id}}">
-							<div class="admin-message">
-								{{ 'admin_messages.messages.reviews_html' | t }}
-							</div>
+							<div id="mag-product-review" data-product="{{ product.id }}"></div>
 							{{ product.metafields.spr.reviews }}
 						</div>
 					</div>
@@ -244,7 +242,6 @@
   	{% endunless %}
 
 </div>
-<div id="mag-product-review" data-product="{{ product.id }}"></div>
 {% schema %}
 {
 	"name": "Product",
