@@ -24,7 +24,7 @@
     "collection_show_sale_label": true,
     "collection_show_new_label": true,
     "collection_list_hero_image": "shopify:\/\/shop_images\/beach-sand-footprints.jpg",
-    "show_product_reviews": false,
+    "show_product_reviews": true,
     "cart_notes_enable": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/lll.jpg",
     "checkout_logo_position": "center",
