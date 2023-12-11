@@ -474,7 +474,7 @@
       "#home .slick-slide .slide {background-repeat: no-repeat; background-size: contain;}",
       ".Online-Store-UI-MainArea_1fawx {padding: 0;}",
       ".collections-grid {justify-content: center;}",
-      "#header {background-color: transparent; box-shadow: none; transition: all .5s linear;}",
+      "#header {background-color: transparent; box-shadow: none; transition: all 0.5s linear;}",
       "#header:hover {background-color: white;}",
       "#header .additional-nav > ul > li:last-child {display: none;}",
       "main section#hero {background-color: black; background-image: none !important;}",
@@ -486,7 +486,8 @@
       "input#CustomerPassword:focus {outline: none; border: 1px black solid; color: black; font-weight: bold;}",
       "#customer_login > div:nth-child(7) > button {transition: all 0.3s linear;}",
       "#customer_login > div:nth-child(7) > button:hover {background-color: black; border-radius: 20px;}",
-      ".logo img {transform: scale(1.2);}"
+      ".logo img {transform: scale(1.2);}",
+      "@media screen and (max-width: 760px) {#header {background-color: white; }}"
     ]
   }
 }
