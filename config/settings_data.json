@@ -3,8 +3,8 @@
     "favicon": "shopify:\/\/shop_images\/fav.jpg",
     "color_primary": "#df4f48",
     "social_sharing_blog": true,
-    "share_facebook": true,
-    "share_twitter": true,
+    "share_facebook": false,
+    "share_twitter": false,
     "share_pinterest": false,
     "share_google_plus": false,
     "social_facebook_link": "",
@@ -24,7 +24,7 @@
     "collection_show_sale_label": true,
     "collection_show_new_label": true,
     "collection_list_hero_image": "shopify:\/\/shop_images\/beach-sand-footprints.jpg",
-    "show_product_reviews": true,
+    "show_product_reviews": false,
     "cart_notes_enable": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/lll.jpg",
     "checkout_logo_position": "center",
@@ -398,7 +398,7 @@
         "type": "product",
         "settings": {
           "show_share_buttons": true,
-          "labels_of_variants_above": false
+          "labels_of_variants_above": true
         }
       }
     },
@@ -410,12 +410,6 @@
       "1531485921633"
     ],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "776302416715791028": {
         "type": "shopify:\/\/apps\/bucks-currency-converter-pro\/blocks\/app-embed\/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
         "disabled": false,
