@@ -161,7 +161,7 @@
       					<label for="SingleOptionSelector">{{ 'products.product.select_variant' | t }}:</label>
       					<select name="id" id="SingleOptionSelector" class="raw" data-product-select>
 	        				{% for variant in product.variants %}
-				          		<select name="id" id="product-select" class="product-form__input product-form__input--select">
+				          		<select name="id" id="SingleOptionSelector" class="raw">
                                   {% for variant in product.variants %}
                                     {% if variant.available %}
                                       <option value="{{ variant.id }}">{{ variant.title }}</option>
