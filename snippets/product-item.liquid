@@ -1,7 +1,7 @@
 <div class="product-item">
   <div class="reveal">
   <img src="{{ featured.featured_image.src | img_url: '450x450' }}" alt="{{ featured.featured_image.alt | escape }}">
-  <img class="hidden" src="{{ product.images.last | img_url: '450x450' }}" alt="{{ product.images.last.alt | escape }}" />
+  <img class="hidden" src="{{ featured.featured_image.src | img_url: '450x450' }}" alt="{{ product.images.last.alt | escape }}" />
 </div>
 	<div class="bottom">
 		<h4>
